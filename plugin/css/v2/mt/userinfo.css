@@ -1,0 +1,15 @@
+.cropit-preview{background-color:#f8f8f8;background-size:cover;border:1px solid #ccc;border-radius:3px;margin-top:7px;width:330px;height:330px;}
+.errorfade{width:100%;color:red;font-size:12px}
+.cropit-preview-image-container{cursor:move;}
+.image-size-label{margin-top:10px;}
+.cropit-image-zoom-input{width:100%;margin-top:10px;}
+.alert-box{margin-top:-5px !important;}
+#result{width:100%;margin-top:1em;}
+#result img{display:block;margin:auto;}
+#result-data{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-wrap:break-word;}
+#result_temp{width:100%;margin-top:2em;}
+#result_temp img{display:block;margin:auto;}
+.cons_imgs{margin-right:15px;display:block;margin-top:12px;-webkit-border-radius:50%;border-radius:50%;}
+.lef{margin-left:13px;}
+.bb{font-weight:bold !important;}
+img .cropit-preview-image-container,.cropit-preview-image{max-width:2000%;height:auto;}
