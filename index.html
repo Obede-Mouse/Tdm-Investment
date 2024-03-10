@@ -64,12 +64,12 @@ function loadAfterFoundation(){
 		loadScript("plugin/js/foundation.tooltip.min.js");
 		waitOrb();
 	} else {
-		window.setTimeout(function(){loadAfterFoundation();},50);
+		window.setTimeout(function(){loadAfterFoundation();},3);
 	}
 }
 function waitOrb(){if(typeof Foundation.libs == "object" && typeof Foundation.libs.orbit == "object" && typeof Foundation.libs.tooltip == "object"){
 	$(document).foundation({ accordion: { multi_expand: true } });
-}else{setTimeout("waitOrb()",50);}}
+}else{setTimeout("waitOrb()",3);}}
 function performResize(){for(d in resizefncs){window.setTimeout(resizefncs[d],0);}}
 function performScroll(){for(d in resizefncs){window.setTimeout(resizefncs[d],0);}}
 function performClick(){for(d in resizefncs){window.setTimeout(resizefncs[d],0);}}
@@ -99,7 +99,7 @@ function adjustDrop(){em=".page_title_empty";if ($(em).length>0){hh=Math.floor($
 
 /*perman*/
 .slide1 .mt-head {
-		background-image: url("");
+		background-image: url("img/sliders/healthy.png");
 	}
 /*oil and gas	*/
 	.slide2 .mt-head {
@@ -258,12 +258,12 @@ $(document).ready(function(){
 						<div class="top_content">
 							<div class="row">
 								<div class="medium-6 medium-push-6 columns">
-										<h1 style="color:maroon;"><b>MEASURE THE DIFFERENCES</b></h1>
+										<h1 style="color:black;"><b>MEASURE THE DIFFERENCES</b></h1>
 	<p style="color:white;">
 		 TDM is a premier general company that was established in 2018. <br>
 		 At TDMwe guide our clients through the conceptual idea to the final installation stages, we are dedicted to total customer satisfaction.
-		 <br>
-	<a href="aboutus.html" class="button tiny radius headbtn" style="border-radius: 30px; background-color: gray;">
+		 <br> <br> <br>
+	<a href="aboutus.html" class="button tiny radius headbtn" style="border-radius: 30px; background-color: black; color: white;">
 		More 
 	</a>
 								</div>
@@ -387,11 +387,11 @@ trends.
 						<div class="top_content">
 							<div class="row">
 								<div class="medium-6 medium-push-6 columns">
-										<h1>Pharmaceutical Products</h1>
-	<p>
+										<h1 style="color:maroon;"><b>Pharmaceutical Products</b></h1>
+	<p style="color:black;">
 		We offer a wide range of high-quality pharmaceutical products to support the healthcare industry in Juba and South Sudan at large. Our products are sourced from trusted manufacturers and comply with international standards.
 	</p>
-	<a href="health.html" class="button tiny radius headbtn">
+	<a href="health.html" class="button tiny radius headbtn" style="background-color:gray;">
 		More 
 	</a>
 								</div>
