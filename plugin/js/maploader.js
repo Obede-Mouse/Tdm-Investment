@@ -464,7 +464,7 @@ function findCountry(lat, lng){
 function createCSS() {
 	style = document.createElement('style');
 	style.type = 'text/css';
-	style.innerHTML = '.mumOldMarker2,.mumNewMarker2{width:18px !important;height:22px !important;}'
+	style.innerhtm = '.mumOldMarker2,.mumNewMarker2{width:18px !important;height:22px !important;}'
 	+ ' .mumOldMarker2{background: url(//i.mt.lv/img/mum/markers.png) no-repeat 0 -22px; z-index:1;}'
 	+ ' .mumNewMarker2{background:url(//i.mt.lv/img/mum/markers.png) no-repeat; z-index:10;}';
 	document.getElementsByTagName('head')[0].appendChild(style);

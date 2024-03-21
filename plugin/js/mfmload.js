@@ -23,7 +23,7 @@ function initmfm(){
 }
 function openModal(img){
 	$(document).foundation();
-	$("#mfmmodal").html('<div style="text-align:center;"><img src="'+img+'" alt=""/></div><a id="mfmclose" class="close-reveal-modal" aria-label="Close">&#215;</a>');
+	$("#mfmmodal").htm('<div style="text-align:center;"><img src="'+img+'" alt=""/></div><a id="mfmclose" class="close-reveal-modal" aria-label="Close">&#215;</a>');
 	$("#mfmmodal").foundation("reveal","open");
 	$("#mfmclose").click(function(){$("#mfmmodal").foundation("reveal","close");});
 }

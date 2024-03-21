@@ -308,7 +308,7 @@
 	.addCat {display:none}
 	input[type="text"].users_input {margin:0; height:24px; border-color: #E2E2E2; background:rgb(244, 244, 244); float:left; padding-right:26px; padding: 0 26px 0 6px}
 	.users_save {position: absolute; margin-left:-22px; margin-top:2px}
-	html, body {height: 100%; }
+	htm, body {height: 100%; }
 	.wide-small {height:364px; display: table; width: 100%}
 	.wide-small div {display: table-cell; height:364px;text-align:center;color:white;padding:0 20px;vertical-align:middle}
 	.wide-small p {font-family: "Open sans", sans-serif}
